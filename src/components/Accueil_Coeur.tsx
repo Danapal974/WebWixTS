@@ -1,16 +1,33 @@
-const Accueil_Coeur = () => {
+interface Accueil_CoeurProps {
+  image: string;
+  titre: string;
+  texte: string;
+  position_titre?: string;
+  taille_image:string;
+  position_texte: string;
+}
+
+const Accueil_Coeur = ({
+  image,
+  titre,
+  texte,
+  position_titre,
+  taille_image,
+  position_texte,
+}: Accueil_CoeurProps) => {
   return (
     <div className="flex justify-center relative bg-gradient-to-b from-white to-blue-200 dark:from-gray-900 dark:to-gray-800 h-[1200px]">
-      <img src="/img/home1.jpg" className="w-4/5 rounded-lg h-[1032px] mt-10" />
-      <div className="outline outline-4 outline-offset-2 outline-red-500 block rounded-lg bg-blue-300 p-6 w-4/12 absolute bottom-20 left-1/2">
-        <h5 className="mb-2 text-xl font-medium text-neutral-800 dark:text-neutral-50">
-          Aide informatique et conseils en ligne
+      <img src={image} className={`w-4/5 rounded-lg  mt-10 ${taille_image}`}/>
+      <div className={`outline outline-4 outline-offset-2 outline-red-500 block rounded-lg bg-blue-300 p-6 w-4/12 absolute left-1/2 ${position_texte}`}>
+        <h5
+          className={
+            `mb-2 text-xl font-medium text-neutral-800 dark:text-neutral-50 ${position_titre}`
+          }
+        >
+          {titre}
         </h5>
         <p className="mb-4 text-base text-neutral-600 dark:text-neutral-200">
-          L'objectif est de créer une plateforme en ligne qui aide les personnes
-          ayant des difficultés avec l'informatique, en leur offrant des
-          ressources éducatives, des tutoriels interactifs et un espace
-          d'entraide.
+          {texte}
         </p>
       </div>
     </div>
