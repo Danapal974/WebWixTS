@@ -22,9 +22,11 @@ const NousChoisir = () => {
         <Accueil_Coeur
           image="/img/NouChoisir_Accueil.jpg"
           titre="Pourquoi Choisir SecurInfo"
+          texte=""
           position_titre="flex justify-center"
-          taille_image="h-[800px]"
-          position_texte="bottom-[20rem]"
+          taille_image="h-[400px]"
+          largeur_image="w-[1700px]"
+          position_texte="bottom-[47rem]"
         />
       </div>
     </div>

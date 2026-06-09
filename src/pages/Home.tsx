@@ -26,7 +26,8 @@ const Home = () => {
           image="/img/home1.jpg"
           titre="Aide informatique et conseils en ligne"
           texte=" L'objectif est de créer une plateforme en ligne qui aide les personnes ayant des difficultés avec l'informatique, en leur offrant des ressources éducatives, des tutoriels interactifs et un espace d'entraide."
-          taille_image="h-[1032px]"
+          taille_image="h-[1032px] mt-10"
+          largeur_image="w-4/5"
           position_texte="bottom-20"
         />
       </div>
