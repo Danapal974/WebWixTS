@@ -21,7 +21,7 @@ const Home = () => {
     <div className="bg-white dark:bg-gray-900 text-black dark:text-white">
       <Header darkMode={darkMode} setDarkMode={setDarkMode} />
       <Nav />
-      <div className="flex justify-center relative bg-gradient-to-b from-white to-blue-200 dark:from-gray-900 dark:to-gray-800 h-[1200px]">
+      <div className=" relative bg-gradient-to-b from-white to-blue-200 dark:from-gray-900 dark:to-gray-800 ">
         <Accueil_Coeur
           image="/img/home1.jpg"
           titre="Aide informatique et conseils en ligne"
@@ -30,6 +30,7 @@ const Home = () => {
           largeur_image="w-4/5"
           position_texte="bottom-5"
           hauteur_section="h-[1200px]"
+          position_flex="flex justify-center"
         />
       </div>
       <Services />
