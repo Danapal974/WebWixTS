@@ -2,7 +2,6 @@ import { useState, useEffect } from "react";
 import Header from "../components/Header";
 import Nav from "../components/Nav";
 import Accueil_NousChoisir from "../components/Accueil_NousChoisir";
-import NousChoisir_Contenu from "../components/NousChoisir_Contenu";
 import Pied_Page from "../components/Pied_Page";
 
 const NousChoisir = () => {

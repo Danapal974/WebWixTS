@@ -6,7 +6,7 @@ const Nav = () => {
       <ul className="flex items-center justify-center gap-8 h-20">
         <Nav_Effet lien="/" nav="Accueil" />
         <Nav_Effet lien="/nous-choisir" nav="Nous Choisir" />
-        <Nav_Effet lien="/services" nav="Nos Services" />
+        <Nav_Effet lien="/nos-services" nav="Nos Services" />
       </ul>
     </div>
   );
