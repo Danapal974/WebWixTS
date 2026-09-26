@@ -22,4 +22,4 @@ Pour le lancer il faut taper la commande
 npm install
 npm run dev
 ```
-Il me reste beaucoup de choses à finir mais aussi surement à optimiser mais c'est une base pour voir comment fonctionne React + TS
+Ce projet est actuellement en pause et surement pas optimiser mais c'est une base pour voir comment fonctionne React + TS
